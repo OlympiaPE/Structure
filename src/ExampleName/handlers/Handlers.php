@@ -15,11 +15,12 @@ class Handlers
 
     /**
      * @param string $name
-     * @param object $manager
+     * @param Handler $handler
      * @return void
      */
-    protected static function register(string $name, object $manager) : void{
-        self::_registryRegister($name, $manager);
+    protected static function register(string $name, Handler $handler) : void{
+        $handler->onLoad();
+        self::_registryRegister($name, $handler);
     }
 
     /**

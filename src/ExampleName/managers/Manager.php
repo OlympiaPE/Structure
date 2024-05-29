@@ -25,5 +25,5 @@ abstract class Manager
     /**
      * @return void
      */
-    abstract protected function onLoad(): void;
+    abstract public function onLoad(): void;
 }

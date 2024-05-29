@@ -13,7 +13,7 @@ class ListenerManager extends Manager
     /**
      * @return void
      */
-    protected function onLoad(): void
+    public function onLoad(): void
     {
         FileUtil::callDirectory(Path::join("listeners", "types"), fn(string $name) => EventLoader::loadEventWithClass(Loader::getInstance(), $name));
     }

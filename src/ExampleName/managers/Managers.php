@@ -19,7 +19,8 @@ class Managers
      * @param object $manager
      * @return void
      */
-    protected static function register(string $name, object $manager) : void{
+    protected static function register(string $name, Manager $manager) : void{
+        $manager->onLoad();
         self::_registryRegister($name, $manager);
     }
 

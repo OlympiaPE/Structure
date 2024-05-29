@@ -12,7 +12,7 @@ class PermissionManager extends Manager
     /**
      * @return void
      */
-    protected function onLoad(): void
+    public function onLoad(): void
     {
         $reflectionClass = new \ReflectionClass(Permissions::class);
         $constants = $reflectionClass->getConstants();
