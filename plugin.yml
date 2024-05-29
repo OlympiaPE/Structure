@@ -1,0 +1,7 @@
+name: ExampleName
+main: ExampleName\Loader
+api: 5.0.0 # Lastest version
+version: 1.0.0
+authors:
+ - OlympiaPE
+ - Your name
