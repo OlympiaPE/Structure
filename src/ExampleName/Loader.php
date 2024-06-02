@@ -38,6 +38,7 @@ class Loader extends PluginBase
 
     protected function onDisable(): void
     {
+        Managers::save();
     }
 
     /**
