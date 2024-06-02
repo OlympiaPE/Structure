@@ -4,9 +4,13 @@ namespace ExampleName\managers;
 
 use ExampleName\managers\types\ListenerManager;
 use ExampleName\Loader;
+use ExampleName\managers\types\PermissionManager;
+use Olympia\Kitpvp\managers\types\CommandManager;
 use pocketmine\utils\RegistryTrait;
 
 /**
+ * @method static PermissionManager PERMISSION()
+ * @method static CommandManager COMMAND()
  * @method static ListenerManager LISTENER()
  */
 class Managers
