@@ -2,7 +2,7 @@
 
 declare(strict_types = 1);
 
-namespace ExampleName\librairies\jojoe77777\FormAPI;
+namespace ExampleName\libraries\jojoe77777\FormAPI;
 
 use InvalidArgumentException;
 use pocketmine\form\Form as IForm;

@@ -27,7 +27,7 @@
  */
 declare(strict_types=1);
 
-namespace ExampleName\librairies\CortexPE\Commando\exception;
+namespace ExampleName\libraries\CortexPE\Commando\exception;
 
 
 class InvalidErrorCode extends CommandoException {

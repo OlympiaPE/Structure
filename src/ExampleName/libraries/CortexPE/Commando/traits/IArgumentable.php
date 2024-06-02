@@ -27,10 +27,10 @@
  */
 declare(strict_types=1);
 
-namespace ExampleName\librairies\CortexPE\Commando\traits;
+namespace ExampleName\libraries\CortexPE\Commando\traits;
 
 
-use ExampleName\librairies\CortexPE\Commando\args\BaseArgument;
+use ExampleName\libraries\CortexPE\Commando\args\BaseArgument;
 use pocketmine\command\CommandSender;
 
 interface IArgumentable {
@@ -38,7 +38,7 @@ interface IArgumentable {
 	public function hasArguments(): bool;
 
 	/**
-	 * @return \ExampleName\librairies\CortexPE\Commando\args\BaseArgument[][]
+	 * @return \ExampleName\libraries\CortexPE\Commando\args\BaseArgument[][]
 	 */
 	public function getArgumentList(): array;
 	public function parseArguments(array $rawArgs, CommandSender $sender): array;

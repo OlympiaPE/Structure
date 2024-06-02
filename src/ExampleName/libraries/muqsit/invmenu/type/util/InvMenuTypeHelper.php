@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace ExampleName\librairies\muqsit\invmenu\type\util;
+namespace ExampleName\libraries\muqsit\invmenu\type\util;
 
 use Generator;
 use pocketmine\block\tile\Chest;

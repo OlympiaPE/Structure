@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace ExampleName\librairies\muqsit\invmenu\type\graphic;
+namespace ExampleName\libraries\muqsit\invmenu\type\graphic;
 
-use ExampleName\librairies\muqsit\invmenu\type\graphic\network\InvMenuGraphicNetworkTranslator;
+use ExampleName\libraries\muqsit\invmenu\type\graphic\network\InvMenuGraphicNetworkTranslator;
 use pocketmine\block\Block;
 use pocketmine\inventory\Inventory;
 use pocketmine\math\Vector3;

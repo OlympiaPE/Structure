@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace ExampleName\librairies\muqsit\invmenu\inventory;
+namespace ExampleName\libraries\muqsit\invmenu\inventory;
 
 use pocketmine\block\inventory\BlockInventory;
 use pocketmine\inventory\SimpleInventory;

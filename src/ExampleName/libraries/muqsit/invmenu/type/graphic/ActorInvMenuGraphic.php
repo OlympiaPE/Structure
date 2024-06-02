@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace ExampleName\librairies\muqsit\invmenu\type\graphic;
+namespace ExampleName\libraries\muqsit\invmenu\type\graphic;
 
-use ExampleName\librairies\muqsit\invmenu\type\graphic\network\InvMenuGraphicNetworkTranslator;
+use ExampleName\libraries\muqsit\invmenu\type\graphic\network\InvMenuGraphicNetworkTranslator;
 use pocketmine\inventory\Inventory;
 use pocketmine\network\mcpe\protocol\AddActorPacket;
 use pocketmine\network\mcpe\protocol\RemoveActorPacket;
@@ -20,7 +20,7 @@ final class ActorInvMenuGraphic implements InvMenuGraphic{
 	 * @param string $actor_identifier
 	 * @param int $actor_runtime_identifier
 	 * @param array<int, MetadataProperty> $actor_metadata
-	 * @param \ExampleName\librairies\muqsit\invmenu\type\graphic\network\InvMenuGraphicNetworkTranslator|null $network_translator
+	 * @param \ExampleName\libraries\muqsit\invmenu\type\graphic\network\InvMenuGraphicNetworkTranslator|null $network_translator
 	 * @param int $animation_duration
 	 */
 	public function __construct(

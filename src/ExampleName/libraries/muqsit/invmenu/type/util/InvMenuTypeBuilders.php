@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace ExampleName\librairies\muqsit\invmenu\type\util;
+namespace ExampleName\libraries\muqsit\invmenu\type\util;
 
-use ExampleName\librairies\muqsit\invmenu\type\util\builder\ActorFixedInvMenuTypeBuilder;
-use ExampleName\librairies\muqsit\invmenu\type\util\builder\BlockActorFixedInvMenuTypeBuilder;
-use ExampleName\librairies\muqsit\invmenu\type\util\builder\BlockFixedInvMenuTypeBuilder;
-use ExampleName\librairies\muqsit\invmenu\type\util\builder\DoublePairableBlockActorFixedInvMenuTypeBuilder;
+use ExampleName\libraries\muqsit\invmenu\type\util\builder\ActorFixedInvMenuTypeBuilder;
+use ExampleName\libraries\muqsit\invmenu\type\util\builder\BlockActorFixedInvMenuTypeBuilder;
+use ExampleName\libraries\muqsit\invmenu\type\util\builder\BlockFixedInvMenuTypeBuilder;
+use ExampleName\libraries\muqsit\invmenu\type\util\builder\DoublePairableBlockActorFixedInvMenuTypeBuilder;
 
 final class InvMenuTypeBuilders{
 

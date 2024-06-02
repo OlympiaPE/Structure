@@ -2,7 +2,7 @@
 
 namespace ExampleName\managers\types;
 
-use ExampleName\librairies\SenseiTarzan\ExtraEvent\Component\EventLoader;
+use ExampleName\libraries\SenseiTarzan\ExtraEvent\Component\EventLoader;
 use ExampleName\Loader;
 use ExampleName\managers\Manager;
 use ExampleName\utils\FileUtil;

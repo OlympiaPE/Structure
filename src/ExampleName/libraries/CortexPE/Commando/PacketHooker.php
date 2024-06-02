@@ -27,11 +27,11 @@
  */
 declare(strict_types=1);
 
-namespace ExampleName\librairies\CortexPE\Commando;
+namespace ExampleName\libraries\CortexPE\Commando;
 
-use ExampleName\librairies\CortexPE\Commando\exception\HookAlreadyRegistered;
-use ExampleName\librairies\CortexPE\Commando\store\SoftEnumStore;
-use ExampleName\librairies\CortexPE\Commando\traits\IArgumentable;
+use ExampleName\libraries\CortexPE\Commando\exception\HookAlreadyRegistered;
+use ExampleName\libraries\CortexPE\Commando\store\SoftEnumStore;
+use ExampleName\libraries\CortexPE\Commando\traits\IArgumentable;
 use ExampleName\librairies\muqsit\simplepackethandler\SimplePacketHandler;
 use pocketmine\command\CommandSender;
 use pocketmine\event\EventPriority;
@@ -128,7 +128,7 @@ class PacketHooker implements Listener {
 	}
 
 	/**
-	 * @param \ExampleName\librairies\CortexPE\Commando\traits\IArgumentable $argumentable
+	 * @param \ExampleName\libraries\CortexPE\Commando\traits\IArgumentable $argumentable
 	 *
 	 * @return CommandOverload[]
 	 */

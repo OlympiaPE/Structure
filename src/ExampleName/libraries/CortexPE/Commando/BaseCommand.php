@@ -27,12 +27,12 @@
  */
 declare(strict_types=1);
 
-namespace ExampleName\librairies\CortexPE\Commando;
+namespace ExampleName\libraries\CortexPE\Commando;
 
-use ExampleName\librairies\CortexPE\Commando\constraint\BaseConstraint;
-use ExampleName\librairies\CortexPE\Commando\exception\InvalidErrorCode;
-use ExampleName\librairies\CortexPE\Commando\traits\ArgumentableTrait;
-use ExampleName\librairies\CortexPE\Commando\traits\IArgumentable;
+use ExampleName\libraries\CortexPE\Commando\constraint\BaseConstraint;
+use ExampleName\libraries\CortexPE\Commando\exception\InvalidErrorCode;
+use ExampleName\libraries\CortexPE\Commando\traits\ArgumentableTrait;
+use ExampleName\libraries\CortexPE\Commando\traits\IArgumentable;
 use InvalidArgumentException;
 use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
@@ -127,7 +127,7 @@ abstract class BaseCommand extends Command implements IArgumentable, IRunnable, 
 	}
 
 	/**
-	 * @param \ExampleName\librairies\CortexPE\Commando\traits\ArgumentableTrait $ctx
+	 * @param \ExampleName\libraries\CortexPE\Commando\traits\ArgumentableTrait $ctx
 	 * @param array             $args
 	 *
 	 * @return array|null

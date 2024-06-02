@@ -27,7 +27,7 @@
  */
 declare(strict_types=1);
 
-namespace ExampleName\librairies\CortexPE\Commando;
+namespace ExampleName\libraries\CortexPE\Commando;
 
 use pocketmine\command\CommandSender;
 use pocketmine\plugin\PluginBase;

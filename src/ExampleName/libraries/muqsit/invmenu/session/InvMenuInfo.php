@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace ExampleName\librairies\muqsit\invmenu\session;
+namespace ExampleName\libraries\muqsit\invmenu\session;
 
-use ExampleName\librairies\muqsit\invmenu\InvMenu;
-use ExampleName\librairies\muqsit\invmenu\type\graphic\InvMenuGraphic;
+use ExampleName\libraries\muqsit\invmenu\InvMenu;
+use ExampleName\libraries\muqsit\invmenu\type\graphic\InvMenuGraphic;
 
 final class InvMenuInfo{
 

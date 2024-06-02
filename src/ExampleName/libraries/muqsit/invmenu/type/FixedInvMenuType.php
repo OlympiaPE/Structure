@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace ExampleName\librairies\muqsit\invmenu\type;
+namespace ExampleName\libraries\muqsit\invmenu\type;
 
 /**
  * An InvMenuType with a fixed inventory size.

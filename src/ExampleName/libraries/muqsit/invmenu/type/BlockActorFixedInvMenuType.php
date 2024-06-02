@@ -2,16 +2,16 @@
 
 declare(strict_types=1);
 
-namespace ExampleName\librairies\muqsit\invmenu\type;
+namespace ExampleName\libraries\muqsit\invmenu\type;
 
-use ExampleName\librairies\muqsit\invmenu\inventory\InvMenuInventory;
-use ExampleName\librairies\muqsit\invmenu\InvMenu;
-use ExampleName\librairies\muqsit\invmenu\type\graphic\BlockActorInvMenuGraphic;
-use ExampleName\librairies\muqsit\invmenu\type\graphic\BlockInvMenuGraphic;
-use ExampleName\librairies\muqsit\invmenu\type\graphic\InvMenuGraphic;
-use ExampleName\librairies\muqsit\invmenu\type\graphic\MultiBlockInvMenuGraphic;
-use ExampleName\librairies\muqsit\invmenu\type\graphic\network\InvMenuGraphicNetworkTranslator;
-use ExampleName\librairies\muqsit\invmenu\type\util\InvMenuTypeHelper;
+use ExampleName\libraries\muqsit\invmenu\inventory\InvMenuInventory;
+use ExampleName\libraries\muqsit\invmenu\InvMenu;
+use ExampleName\libraries\muqsit\invmenu\type\graphic\BlockActorInvMenuGraphic;
+use ExampleName\libraries\muqsit\invmenu\type\graphic\BlockInvMenuGraphic;
+use ExampleName\libraries\muqsit\invmenu\type\graphic\InvMenuGraphic;
+use ExampleName\libraries\muqsit\invmenu\type\graphic\MultiBlockInvMenuGraphic;
+use ExampleName\libraries\muqsit\invmenu\type\graphic\network\InvMenuGraphicNetworkTranslator;
+use ExampleName\libraries\muqsit\invmenu\type\util\InvMenuTypeHelper;
 use pocketmine\block\Block;
 use pocketmine\block\VanillaBlocks;
 use pocketmine\inventory\Inventory;

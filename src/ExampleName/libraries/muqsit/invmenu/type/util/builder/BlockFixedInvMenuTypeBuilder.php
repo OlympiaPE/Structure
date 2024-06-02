@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace ExampleName\librairies\muqsit\invmenu\type\util\builder;
+namespace ExampleName\libraries\muqsit\invmenu\type\util\builder;
 
-use ExampleName\librairies\muqsit\invmenu\type\BlockFixedInvMenuType;
-use ExampleName\librairies\muqsit\invmenu\type\graphic\network\BlockInvMenuGraphicNetworkTranslator;
+use ExampleName\libraries\muqsit\invmenu\type\BlockFixedInvMenuType;
+use ExampleName\libraries\muqsit\invmenu\type\graphic\network\BlockInvMenuGraphicNetworkTranslator;
 
 final class BlockFixedInvMenuTypeBuilder implements InvMenuTypeBuilder{
 	use BlockInvMenuTypeBuilderTrait;

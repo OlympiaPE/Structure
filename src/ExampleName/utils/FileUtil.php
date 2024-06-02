@@ -2,7 +2,7 @@
 
 namespace ExampleName\utils;
 
-use ExampleName\librairies\SenseiTarzan\Path\PathScanner;
+use ExampleName\libraries\SenseiTarzan\Path\PathScanner;
 use ExampleName\Loader;
 
 class FileUtil

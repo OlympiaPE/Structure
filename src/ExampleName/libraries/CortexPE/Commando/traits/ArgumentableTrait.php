@@ -27,13 +27,13 @@
  */
 declare(strict_types=1);
 
-namespace ExampleName\librairies\CortexPE\Commando\traits;
+namespace ExampleName\libraries\CortexPE\Commando\traits;
 
 
-use ExampleName\librairies\CortexPE\Commando\args\BaseArgument;
-use ExampleName\librairies\CortexPE\Commando\args\TextArgument;
-use ExampleName\librairies\CortexPE\Commando\BaseCommand;
-use ExampleName\librairies\CortexPE\Commando\exception\ArgumentOrderException;
+use ExampleName\libraries\CortexPE\Commando\args\BaseArgument;
+use ExampleName\libraries\CortexPE\Commando\args\TextArgument;
+use ExampleName\libraries\CortexPE\Commando\BaseCommand;
+use ExampleName\libraries\CortexPE\Commando\exception\ArgumentOrderException;
 use pocketmine\command\CommandSender;
 use pocketmine\utils\TextFormat;
 use function array_slice;
@@ -45,7 +45,7 @@ use function trim;
 use function usort;
 
 trait ArgumentableTrait{
-	/** @var \ExampleName\librairies\CortexPE\Commando\args\BaseArgument[][] */
+	/** @var \ExampleName\libraries\CortexPE\Commando\args\BaseArgument[][] */
 	private array $argumentList = []; // [argumentPosition => [...possible BaseArgument(s)]]
 	/** @var bool[] */
 	private array $requiredArgumentCount = [];
@@ -59,7 +59,7 @@ trait ArgumentableTrait{
 	 * @param int          $position
 	 * @param BaseArgument $argument
 	 *
-	 * @throws \ExampleName\librairies\CortexPE\Commando\exception\ArgumentOrderException
+	 * @throws \ExampleName\libraries\CortexPE\Commando\exception\ArgumentOrderException
 	 */
 	public function registerArgument(int $position, BaseArgument $argument): void {
 		if($position < 0) {

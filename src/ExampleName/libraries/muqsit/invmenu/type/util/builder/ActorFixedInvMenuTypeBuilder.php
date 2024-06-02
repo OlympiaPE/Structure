@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace ExampleName\librairies\muqsit\invmenu\type\util\builder;
+namespace ExampleName\libraries\muqsit\invmenu\type\util\builder;
 
-use ExampleName\librairies\muqsit\invmenu\type\ActorFixedInvMenuType;
+use ExampleName\libraries\muqsit\invmenu\type\ActorFixedInvMenuType;
 use pocketmine\network\mcpe\protocol\types\entity\EntityMetadataFlags;
 use pocketmine\network\mcpe\protocol\types\entity\EntityMetadataProperties;
 

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace ExampleName\librairies\muqsit\invmenu\transaction;
+namespace ExampleName\libraries\muqsit\invmenu\transaction;
 
 use pocketmine\inventory\transaction\action\SlotChangeAction;
 use pocketmine\inventory\transaction\InventoryTransaction;

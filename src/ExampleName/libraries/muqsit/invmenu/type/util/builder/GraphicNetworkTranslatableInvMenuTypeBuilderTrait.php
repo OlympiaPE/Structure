@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace ExampleName\librairies\muqsit\invmenu\type\util\builder;
+namespace ExampleName\libraries\muqsit\invmenu\type\util\builder;
 
-use ExampleName\librairies\muqsit\invmenu\type\graphic\network\InvMenuGraphicNetworkTranslator;
-use ExampleName\librairies\muqsit\invmenu\type\graphic\network\MultiInvMenuGraphicNetworkTranslator;
-use ExampleName\librairies\muqsit\invmenu\type\graphic\network\WindowTypeInvMenuGraphicNetworkTranslator;
+use ExampleName\libraries\muqsit\invmenu\type\graphic\network\InvMenuGraphicNetworkTranslator;
+use ExampleName\libraries\muqsit\invmenu\type\graphic\network\MultiInvMenuGraphicNetworkTranslator;
+use ExampleName\libraries\muqsit\invmenu\type\graphic\network\WindowTypeInvMenuGraphicNetworkTranslator;
 
 trait GraphicNetworkTranslatableInvMenuTypeBuilderTrait{
 

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace ExampleName\librairies\muqsit\invmenu\type;
+namespace ExampleName\libraries\muqsit\invmenu\type;
 
-use ExampleName\librairies\muqsit\invmenu\type\util\InvMenuTypeBuilders;
+use ExampleName\libraries\muqsit\invmenu\type\util\InvMenuTypeBuilders;
 use pocketmine\block\VanillaBlocks;
 use pocketmine\network\mcpe\protocol\types\inventory\WindowTypes;
 

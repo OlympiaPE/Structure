@@ -2,18 +2,18 @@
 
 declare(strict_types=1);
 
-namespace ExampleName\librairies\muqsit\invmenu;
+namespace ExampleName\libraries\muqsit\invmenu;
 
 use Closure;
-use ExampleName\librairies\muqsit\invmenu\inventory\SharedInvMenuSynchronizer;
-use ExampleName\librairies\muqsit\invmenu\session\InvMenuInfo;
-use ExampleName\librairies\muqsit\invmenu\session\network\PlayerNetwork;
-use ExampleName\librairies\muqsit\invmenu\transaction\DeterministicInvMenuTransaction;
-use ExampleName\librairies\muqsit\invmenu\transaction\InvMenuTransaction;
-use ExampleName\librairies\muqsit\invmenu\transaction\InvMenuTransactionResult;
-use ExampleName\librairies\muqsit\invmenu\transaction\SimpleInvMenuTransaction;
-use ExampleName\librairies\muqsit\invmenu\type\InvMenuType;
-use ExampleName\librairies\muqsit\invmenu\type\InvMenuTypeIds;
+use ExampleName\libraries\muqsit\invmenu\inventory\SharedInvMenuSynchronizer;
+use ExampleName\libraries\muqsit\invmenu\session\InvMenuInfo;
+use ExampleName\libraries\muqsit\invmenu\session\network\PlayerNetwork;
+use ExampleName\libraries\muqsit\invmenu\transaction\DeterministicInvMenuTransaction;
+use ExampleName\libraries\muqsit\invmenu\transaction\InvMenuTransaction;
+use ExampleName\libraries\muqsit\invmenu\transaction\InvMenuTransactionResult;
+use ExampleName\libraries\muqsit\invmenu\transaction\SimpleInvMenuTransaction;
+use ExampleName\libraries\muqsit\invmenu\type\InvMenuType;
+use ExampleName\libraries\muqsit\invmenu\type\InvMenuTypeIds;
 use LogicException;
 use pocketmine\inventory\Inventory;
 use pocketmine\inventory\transaction\action\SlotChangeAction;
@@ -33,8 +33,8 @@ class InvMenu implements InvMenuTypeIds{
 	}
 
 	/**
-	 * @param (Closure(\ExampleName\librairies\muqsit\invmenu\transaction\DeterministicInvMenuTransaction) : void)|null $listener
-	 * @return Closure(\ExampleName\librairies\muqsit\invmenu\transaction\InvMenuTransaction) : \ExampleName\librairies\muqsit\invmenu\transaction\InvMenuTransactionResult
+	 * @param (Closure(\ExampleName\libraries\muqsit\invmenu\transaction\DeterministicInvMenuTransaction) : void)|null $listener
+	 * @return Closure(\ExampleName\libraries\muqsit\invmenu\transaction\InvMenuTransaction) : \ExampleName\libraries\muqsit\invmenu\transaction\InvMenuTransactionResult
 	 */
 	public static function readonly(?Closure $listener = null) : Closure{
 		return static function(InvMenuTransaction $transaction) use($listener) : InvMenuTransactionResult{
@@ -84,14 +84,14 @@ class InvMenu implements InvMenuTypeIds{
 	}
 
 	/**
-	 * @return (Closure(\ExampleName\librairies\muqsit\invmenu\transaction\InvMenuTransaction) : InvMenuTransactionResult)|null
+	 * @return (Closure(\ExampleName\libraries\muqsit\invmenu\transaction\InvMenuTransaction) : InvMenuTransactionResult)|null
 	 */
 	public function getListener() : ?Closure{
 		return $this->listener;
 	}
 
 	/**
-	 * @param (Closure(\ExampleName\librairies\muqsit\invmenu\transaction\InvMenuTransaction) : \ExampleName\librairies\muqsit\invmenu\transaction\InvMenuTransactionResult)|null $listener
+	 * @param (Closure(\ExampleName\libraries\muqsit\invmenu\transaction\InvMenuTransaction) : \ExampleName\libraries\muqsit\invmenu\transaction\InvMenuTransactionResult)|null $listener
 	 * @return self
 	 */
 	public function setListener(?Closure $listener) : self{

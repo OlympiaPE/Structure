@@ -1,6 +1,6 @@
 <?php
 
-namespace ExampleName\librairies\SenseiTarzan\Path;
+namespace ExampleName\libraries\SenseiTarzan\Path;
 
 use Generator;
 use Symfony\Component\Filesystem\Path;

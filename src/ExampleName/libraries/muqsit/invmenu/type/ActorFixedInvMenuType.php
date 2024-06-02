@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace ExampleName\librairies\muqsit\invmenu\type;
+namespace ExampleName\libraries\muqsit\invmenu\type;
 
-use ExampleName\librairies\muqsit\invmenu\inventory\InvMenuInventory;
-use ExampleName\librairies\muqsit\invmenu\InvMenu;
-use ExampleName\librairies\muqsit\invmenu\type\graphic\ActorInvMenuGraphic;
-use ExampleName\librairies\muqsit\invmenu\type\graphic\InvMenuGraphic;
-use ExampleName\librairies\muqsit\invmenu\type\graphic\network\InvMenuGraphicNetworkTranslator;
+use ExampleName\libraries\muqsit\invmenu\inventory\InvMenuInventory;
+use ExampleName\libraries\muqsit\invmenu\InvMenu;
+use ExampleName\libraries\muqsit\invmenu\type\graphic\ActorInvMenuGraphic;
+use ExampleName\libraries\muqsit\invmenu\type\graphic\InvMenuGraphic;
+use ExampleName\libraries\muqsit\invmenu\type\graphic\network\InvMenuGraphicNetworkTranslator;
 use pocketmine\inventory\Inventory;
 use pocketmine\network\mcpe\protocol\types\entity\MetadataProperty;
 use pocketmine\player\Player;
@@ -20,7 +20,7 @@ final class ActorFixedInvMenuType implements FixedInvMenuType{
 	 * @param int $actor_runtime_identifier
 	 * @param array<int, MetadataProperty> $actor_metadata
 	 * @param int $size
-	 * @param \ExampleName\librairies\muqsit\invmenu\type\graphic\network\InvMenuGraphicNetworkTranslator|null $network_translator
+	 * @param \ExampleName\libraries\muqsit\invmenu\type\graphic\network\InvMenuGraphicNetworkTranslator|null $network_translator
 	 */
 	public function __construct(
 		readonly private string $actor_identifier,

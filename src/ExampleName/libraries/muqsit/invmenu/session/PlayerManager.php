@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace ExampleName\librairies\muqsit\invmenu\session;
+namespace ExampleName\libraries\muqsit\invmenu\session;
 
-use ExampleName\librairies\muqsit\invmenu\session\network\handler\PlayerNetworkHandlerRegistry;
-use ExampleName\librairies\muqsit\invmenu\session\network\PlayerNetwork;
+use ExampleName\libraries\muqsit\invmenu\session\network\handler\PlayerNetworkHandlerRegistry;
+use ExampleName\libraries\muqsit\invmenu\session\network\PlayerNetwork;
 use pocketmine\event\EventPriority;
 use pocketmine\event\player\PlayerLoginEvent;
 use pocketmine\event\player\PlayerQuitEvent;

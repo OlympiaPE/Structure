@@ -3,9 +3,9 @@
 namespace ExampleName;
 
 use ExampleName\handlers\Handlers;
-use ExampleName\librairies\CortexPE\Commando\exception\HookAlreadyRegistered;
-use ExampleName\librairies\CortexPE\Commando\PacketHooker;
-use ExampleName\librairies\muqsit\invmenu\InvMenuHandler;
+use ExampleName\libraries\CortexPE\Commando\exception\HookAlreadyRegistered;
+use ExampleName\libraries\CortexPE\Commando\PacketHooker;
+use ExampleName\libraries\muqsit\invmenu\InvMenuHandler;
 use ExampleName\managers\Managers;
 use pocketmine\plugin\PluginBase;
 use pocketmine\utils\SingletonTrait;
@@ -29,8 +29,12 @@ class Loader extends PluginBase
     protected function onEnable(): void
     {
         // Registering libraries
-        PacketHooker::register($this);
-        InvMenuHandler::register($this);
+        if(!PacketHooker::isRegistered()) {
+            PacketHooker::register($this);
+        }
+        if(!InvMenuHandler::isRegistered()) {
+            InvMenuHandler::register($this);
+        }
 
         Managers::load();
         Handlers::load();

@@ -27,7 +27,7 @@
  */
 declare(strict_types=1);
 
-namespace ExampleName\librairies\CortexPE\Commando\args;
+namespace ExampleName\libraries\CortexPE\Commando\args;
 
 use pocketmine\command\CommandSender;
 use pocketmine\network\mcpe\protocol\AvailableCommandsPacket;

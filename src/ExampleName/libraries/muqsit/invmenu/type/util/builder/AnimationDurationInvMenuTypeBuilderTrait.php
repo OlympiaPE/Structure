@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace ExampleName\librairies\muqsit\invmenu\type\util\builder;
+namespace ExampleName\libraries\muqsit\invmenu\type\util\builder;
 
 trait AnimationDurationInvMenuTypeBuilderTrait{
 

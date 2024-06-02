@@ -27,7 +27,7 @@
  */
 declare(strict_types=1);
 
-namespace ExampleName\librairies\CortexPE\Commando;
+namespace ExampleName\libraries\CortexPE\Commando;
 
 
 /**
@@ -54,7 +54,7 @@ interface IRunnable {
     public function getPermissions(): array;
 
     /**
-     * @return \ExampleName\librairies\CortexPE\Commando\constraint\BaseConstraint[]
+     * @return \ExampleName\libraries\CortexPE\Commando\constraint\BaseConstraint[]
      */
     public function getConstraints():array;
 }

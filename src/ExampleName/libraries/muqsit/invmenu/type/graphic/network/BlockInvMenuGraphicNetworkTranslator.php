@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace ExampleName\librairies\muqsit\invmenu\type\graphic\network;
+namespace ExampleName\libraries\muqsit\invmenu\type\graphic\network;
 
-use ExampleName\librairies\muqsit\invmenu\session\InvMenuInfo;
-use ExampleName\librairies\muqsit\invmenu\session\PlayerSession;
-use ExampleName\librairies\muqsit\invmenu\type\graphic\PositionedInvMenuGraphic;
+use ExampleName\libraries\muqsit\invmenu\session\InvMenuInfo;
+use ExampleName\libraries\muqsit\invmenu\session\PlayerSession;
+use ExampleName\libraries\muqsit\invmenu\type\graphic\PositionedInvMenuGraphic;
 use InvalidArgumentException;
 use pocketmine\network\mcpe\protocol\ContainerOpenPacket;
 use pocketmine\network\mcpe\protocol\types\BlockPosition;

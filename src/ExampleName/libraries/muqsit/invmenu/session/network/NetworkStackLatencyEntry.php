@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace ExampleName\librairies\muqsit\invmenu\session\network;
+namespace ExampleName\libraries\muqsit\invmenu\session\network;
 
 use Closure;
 

@@ -27,7 +27,7 @@
  */
 declare(strict_types=1);
 
-namespace ExampleName\librairies\CortexPE\Commando\constraint;
+namespace ExampleName\libraries\CortexPE\Commando\constraint;
 
 
 use pocketmine\command\CommandSender;

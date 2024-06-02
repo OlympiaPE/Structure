@@ -27,10 +27,10 @@
  */
 declare(strict_types=1);
 
-namespace ExampleName\librairies\CortexPE\Commando\constraint;
+namespace ExampleName\libraries\CortexPE\Commando\constraint;
 
 
-use ExampleName\librairies\CortexPE\Commando\IRunnable;
+use ExampleName\libraries\CortexPE\Commando\IRunnable;
 use pocketmine\command\CommandSender;
 
 abstract class BaseConstraint {

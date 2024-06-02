@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace ExampleName\librairies\muqsit\invmenu\session\network;
+namespace ExampleName\libraries\muqsit\invmenu\session\network;
 
 use Closure;
-use ExampleName\librairies\muqsit\invmenu\session\InvMenuInfo;
-use ExampleName\librairies\muqsit\invmenu\session\network\handler\PlayerNetworkHandler;
-use ExampleName\librairies\muqsit\invmenu\session\PlayerSession;
+use ExampleName\libraries\muqsit\invmenu\session\InvMenuInfo;
+use ExampleName\libraries\muqsit\invmenu\session\network\handler\PlayerNetworkHandler;
+use ExampleName\libraries\muqsit\invmenu\session\PlayerSession;
 use InvalidArgumentException;
 use pocketmine\block\inventory\BlockInventory;
 use pocketmine\inventory\Inventory;

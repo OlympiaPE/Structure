@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace ExampleName\librairies\muqsit\invmenu\type\graphic;
+namespace ExampleName\libraries\muqsit\invmenu\type\graphic;
 
 use pocketmine\math\Vector3;
 

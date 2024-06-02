@@ -1,6 +1,6 @@
 <?php
 
-namespace ExampleName\librairies\SenseiTarzan\ExtraEvent\Class;
+namespace ExampleName\libraries\SenseiTarzan\ExtraEvent\Class;
 
 use Attribute;
 use pocketmine\event\EventPriority;

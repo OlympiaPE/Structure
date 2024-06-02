@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace ExampleName\librairies\muqsit\invmenu;
+namespace ExampleName\libraries\muqsit\invmenu;
 
-use ExampleName\librairies\muqsit\invmenu\session\network\PlayerNetwork;
-use ExampleName\librairies\muqsit\invmenu\session\PlayerManager;
+use ExampleName\libraries\muqsit\invmenu\session\network\PlayerNetwork;
+use ExampleName\libraries\muqsit\invmenu\session\PlayerManager;
 use pocketmine\event\inventory\InventoryCloseEvent;
 use pocketmine\event\inventory\InventoryTransactionEvent;
 use pocketmine\event\Listener;

@@ -1,8 +1,8 @@
 <?php
 
-namespace ExampleName\librairies\SenseiTarzan\ExtraEvent\Component;
+namespace ExampleName\libraries\SenseiTarzan\ExtraEvent\Component;
 
-use ExampleName\librairies\SenseiTarzan\ExtraEvent\Class\EventAttribute;
+use ExampleName\libraries\SenseiTarzan\ExtraEvent\Class\EventAttribute;
 use pocketmine\event\Event;
 use pocketmine\plugin\PluginBase;
 use pocketmine\utils\TextFormat;

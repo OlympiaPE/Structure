@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace ExampleName\librairies\muqsit\invmenu\session\network\handler;
+namespace ExampleName\libraries\muqsit\invmenu\session\network\handler;
 
 use Closure;
-use ExampleName\librairies\muqsit\invmenu\session\network\NetworkStackLatencyEntry;
+use ExampleName\libraries\muqsit\invmenu\session\network\NetworkStackLatencyEntry;
 
 interface PlayerNetworkHandler{
 

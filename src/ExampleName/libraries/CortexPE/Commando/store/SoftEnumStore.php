@@ -1,10 +1,10 @@
 <?php
 
 
-namespace ExampleName\librairies\CortexPE\Commando\store;
+namespace ExampleName\libraries\CortexPE\Commando\store;
 
 
-use ExampleName\librairies\CortexPE\Commando\exception\CommandoException;
+use ExampleName\libraries\CortexPE\Commando\exception\CommandoException;
 use pocketmine\network\mcpe\NetworkBroadcastUtils;
 use pocketmine\network\mcpe\protocol\ClientboundPacket;
 use pocketmine\network\mcpe\protocol\types\command\CommandEnum;

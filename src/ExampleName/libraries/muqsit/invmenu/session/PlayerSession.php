@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace ExampleName\librairies\muqsit\invmenu\session;
+namespace ExampleName\libraries\muqsit\invmenu\session;
 
 use Closure;
-use ExampleName\librairies\muqsit\invmenu\session\network\PlayerNetwork;
+use ExampleName\libraries\muqsit\invmenu\session\network\PlayerNetwork;
 use pocketmine\player\Player;
 use function spl_object_id;
 
