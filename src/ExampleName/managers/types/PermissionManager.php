@@ -6,6 +6,8 @@ use ExampleName\managers\Manager;
 use ExampleName\utils\constants\Permissions;
 use pocketmine\permission\DefaultPermissions;
 use pocketmine\permission\Permission;
+use pocketmine\permission\PermissionManager as PocketminePermissionManager;
+use ReflectionClass;
 
 class PermissionManager extends Manager
 {
@@ -14,12 +16,14 @@ class PermissionManager extends Manager
      */
     public function onLoad(): void
     {
-        $reflectionClass = new \ReflectionClass(Permissions::class);
-        $constants = $reflectionClass->getConstants();
+        $permissionsReflectionClass = new ReflectionClass(Permissions::class);
+        $permissionManager = PocketminePermissionManager::getInstance();
 
-        $defaultPerm = [\pocketmine\permission\PermissionManager::getInstance()->getPermission(DefaultPermissions::ROOT_OPERATOR)];
-        foreach ($constants as $constant => $name) {
-            DefaultPermissions::registerPermission(new Permission("olympia.{$name}"), $defaultPerm);
+        foreach ($permissionsReflectionClass->getConstants() as $permissionName) {
+
+            $rootOperator = $permissionManager->getPermission(DefaultPermissions::ROOT_OPERATOR);
+            $permission = new Permission($permissionName, "Olympia Kitpvp permission");
+            DefaultPermissions::registerPermission($permission, [$rootOperator]);
         }
     }
 }
