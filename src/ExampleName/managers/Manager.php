@@ -26,4 +26,6 @@ abstract class Manager
      * @return void
      */
     abstract public function onLoad(): void;
+
+    public function save(): void {}
 }
