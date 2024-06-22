@@ -22,7 +22,7 @@ class PermissionManager extends Manager
         foreach ($permissionsReflectionClass->getConstants() as $permissionName) {
 
             $rootOperator = $permissionManager->getPermission(DefaultPermissions::ROOT_OPERATOR);
-            $permission = new Permission($permissionName, "Olympia Kitpvp permission");
+            $permission = new Permission($permissionName, "Olympia permission");
             DefaultPermissions::registerPermission($permission, [$rootOperator]);
         }
     }

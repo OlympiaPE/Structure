@@ -1,6 +1,6 @@
 <?php
 
-namespace Olympia\Kitpvp\managers\types;
+namespace ExampleName\managers\types;
 
 use ExampleName\Loader;
 use ExampleName\managers\Manager;

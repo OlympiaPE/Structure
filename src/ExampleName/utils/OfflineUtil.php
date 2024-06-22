@@ -3,6 +3,7 @@
 namespace ExampleName\utils;
 
 use InvalidArgumentException;
+use Ramsey\Uuid\UuidInterface;
 use pocketmine\item\Item;
 use pocketmine\nbt\NBT;
 use pocketmine\nbt\tag\CompoundTag;
@@ -158,5 +159,10 @@ class OfflineUtil
 
         self::writeEnderInventory($nbt, $contents);
         Server::getInstance()->saveOfflinePlayerData(strtolower($target), $nbt);
+    }
+
+    public static function getUsernameUuid(string $target): ?Uuid
+    {
+
     }
 }
